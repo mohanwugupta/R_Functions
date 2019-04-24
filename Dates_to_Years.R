@@ -1,3 +1,5 @@
+#Finds the difference between two dates and converts it into years. 
+#Useful for finding ages of participants e.g date of study - date of birth.
 age_years <- function(first, second) 
 { 
   lt <- data.frame(first, second) 
